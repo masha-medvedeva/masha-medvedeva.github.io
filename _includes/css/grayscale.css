@@ -347,14 +347,16 @@ a:focus {
 }
 
 .download-section2 {
-	margin-left: 150px;
-	margin-right: 150px;
-    width: 80%;
+	
+    width: 100%;
     padding: 80px 80px;
     color: #000;
     /*background: url(/img/downloads-bg.jpg) no-repeat center center scroll;*/
     background-color: white;
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 #map {
@@ -369,7 +371,7 @@ a:focus {
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 100px 150px;
     }
 
     #map {
