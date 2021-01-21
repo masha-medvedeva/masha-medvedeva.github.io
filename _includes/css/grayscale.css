@@ -3,13 +3,15 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ 
+ 
 
 body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: {{ site.color.primary-dark }};
+    color: {{ site.color.primary-dark }};
+    background-color: #fff;
 }
 
 html {
@@ -31,10 +33,14 @@ h6 {
 }
 
 p {
-    margin: 0 0 25px;
+    margin: 0 0 40px;
     font-size: 18px;
     line-height: 1.5;
 }
+
+  .bottom-three {
+     margin-bottom: 0.3cm;
+  }
 
 @media(min-width:767px) {
     p {
@@ -135,7 +141,7 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 1px 0;
+    padding: 10px 0;
     text-align: left;
     color: #fff;
     background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
@@ -287,26 +293,99 @@ a:focus {
 }
 
 .btn {
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: bold;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 
 .btn-default {
-    border: 1px solid {{ site.color.links }};
-    color: {{ site.color.links }};
-    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffff;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid {{ site.color.links }};
+    border: 1px solid #D1F7A6;
     outline: 0;
     color: {{ site.color.primary-dark }};
-    background-color: {{ site.color.links }};
+    background-color: #D1F7A6;
+}
+
+.btn-twitter {
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffff;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+    border: 1px solid #55ACEE;
+    outline: 0;
+    color: white;
+    background-color: #55ACEE;
+}
+
+.btn-title {
+    text-align: left;
+    border: 0px solid rgba(255,255,255,.0);
+    color: #fff;
+    background: rgba(255,255,255,.0);
+}
+
+.btn-title:hover,
+.btn-title:focus {
+    border: 0px solid rgba(255,255,255,.0);
+    outline: 0;
+    color: white;
+    background-color: rgba(255,255,255,.2);
+}
+
+
+.btn-linkedin {
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffff;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+    border: 1px solid #007bb5;
+    outline: 0;
+    color: white;
+    background-color: #007bb5;
+}
+
+.btn-juri {
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffff;
+}
+
+.btn-juri:hover,
+.btn-juri:focus {
+    border: 1px solid rgb(255, 153, 153);
+    outline: 0;
+    color: white;
+    background-color: rgb(255, 153, 153);
+}
+
+.btn-mail {
+	width: 56px;
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffff;
+}
+
+.btn-mail:hover,
+.btn-mail:focus {
+    border: 1px solid green;
+    outline: 0;
+    color: white;
+    background-color: green;
 }
 
 ul.banner-social-buttons {
@@ -366,3 +445,6 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+

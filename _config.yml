@@ -2,8 +2,7 @@
 title: Masha Medvedeva
 email: m.medvedeva@rug.nl
 #url: https://example.github.io
-description: ""
-
+description: "I am a PhD candidate at the University of Groningen. I work as an interdisciplinary researcher for the Center for Language and Cognition Groningen and the Department of Legal Science. My work focuses on automatic detection of linguistic patterns within legal data. Given my background in computational linguistics, my project currently focuses on predicting future decisions of the European Court of Human Rights using machine learning. Additionally, I have a larger interest in automatic analysis of case law of European lower national courts. "
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
@@ -13,17 +12,12 @@ color:
 footer: masha-medvedeva
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+#social:
+#  - title: twitter
+#    url: https://twitter.com/JudgyLinguist
+#  - title: linkedin
+#    url: https://www.linkedin.com/in/masha-medvedeva/
+
 
 # Build settings
 markdown: kramdown
