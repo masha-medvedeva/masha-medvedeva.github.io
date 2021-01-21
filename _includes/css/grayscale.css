@@ -157,12 +157,20 @@ a:focus {
     padding: 10px 0;
     text-align: left;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
+    /*background: url(/img/intro-bg.jpeg) no-repeat bottom center scroll;*/
+    background-color: #434343ff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .intro .intro-body {
@@ -469,6 +477,11 @@ img::selection {
 
 img::-moz-selection {
     background: 0 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 body {
