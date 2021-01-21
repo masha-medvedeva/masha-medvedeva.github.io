@@ -44,7 +44,7 @@ p {
   }
   
     .bottom-top {
-     margin-top: 150px;
+     margin-top: 10em;
   }
 
 @media(min-width:767px) {
