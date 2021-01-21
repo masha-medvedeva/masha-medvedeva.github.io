@@ -2,8 +2,7 @@
 title: Masha Medvedeva
 email: m.medvedeva@rug.nl
 #url: https://example.github.io
-description: "I am a PhD candidate at the University of Groningen. I work as an interdisciplinary researcher for the Center for Language and Cognition Groningen and the Department of Legal Science. My work focuses on automatic detection of linguistic patterns within legal data. Given my background in computational linguistics, my project currently focuses on predicting future decisions of the European Court of Human Rights using machine learning. Additionally, I have a larger interest in automatic analysis of case law of European lower national courts. "
-# Color settings (hex-codes without the leading hash-tag)
+description: "masha's personal website"
 color:
   primary-dark: '#000000'
   links: '#219ab3'
