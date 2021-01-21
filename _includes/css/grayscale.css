@@ -46,6 +46,7 @@ p {
      margin-left: 0.3cm;
   }
   
+
 .top-juri {
     padding: 25px 0;
   }
@@ -347,7 +348,7 @@ a:focus {
 }
 
 .download-section2 {
-	
+	border-radius:.25rem
     width: 100%;
     padding: 80px 80px;
     color: #000;
