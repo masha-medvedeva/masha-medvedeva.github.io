@@ -52,7 +52,7 @@ p {
 }
 
 a {
-    color: {{ site.color.links }};
+    color: #585858;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -61,15 +61,23 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #073763ff;
 }
 
 .light {
     font-weight: 400;
 }
 
+
 .juri {
-	color: #f2849e;
+	color: #585858;
+	
+}
+
+.juri:hover,
+.juri:focus {
+    text-decoration: none;
+    color: #f2849e;
 }
 
 .navbar-custom {
@@ -260,16 +268,32 @@ a:focus {
     }
 }
 
+
+
 .content-section {
     padding-top: 50px;
 }
 
 .download-section {
     width: 100%;
-    padding: 50px 0;
+    padding: 0 0;
     color: #fff;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: {{ site.color.primary-dark }};
+    /*background: url(/img/downloads-bg.jpg) no-repeat center center scroll;*/
+    background-color: #333333ff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.download-section2 {
+	margin-left: 100px;
+	margin-right: 100px;
+    width: 85%;
+    padding: 50px 100px;
+    color: #000;
+    /*background: url(/img/downloads-bg.jpg) no-repeat center center scroll;*/
+    background-color: white;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
