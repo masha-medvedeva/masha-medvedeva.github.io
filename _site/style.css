@@ -51,14 +51,16 @@ p {
      margin-left: 0.3cm;
   }
   
-  
+.top-juri {
+    padding: 25px 0;
+  }
     .bottom-top {
     padding: 23% 0;
   }
 
 @media(min-width:767px) {
     p {
-        margin: 0 0 35px;
+        margin: 0 0 0;
         font-size: 14px;
         line-height: 1.6;
     }
@@ -307,10 +309,9 @@ a:focus {
 }
 
 .download-section2 {
-	margin-left: 100px;
-	margin-right: 100px;
-    width: 85%;
-    padding: 50px 100px;
+	margin-left: 150px;
+    width: 80%;
+    padding: 80px 80px;
     color: #000;
     /*background: url(/img/downloads-bg.jpg) no-repeat center center scroll;*/
     background-color: white;
