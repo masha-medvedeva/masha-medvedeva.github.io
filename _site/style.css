@@ -40,7 +40,7 @@ h6 {
 p {
     margin: 0 0 40px;
     text-align: left;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.5;
 }
 
@@ -48,14 +48,15 @@ p {
      margin-bottom: 0.3cm;
   }
   
+  
     .bottom-top {
-    padding: 24% 0;
+    padding: 23% 0;
   }
 
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 14px;
         line-height: 1.6;
     }
 }
@@ -70,13 +71,18 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #073763ff;
+    color: #6d9eebff;
 }
 
 .light {
     font-weight: 400;
 }
 
+
+.pub {
+	color: black;
+	
+}
 
 .juri {
 	color: #585858;
@@ -407,6 +413,20 @@ a:focus {
 
 .btn-juri:hover,
 .btn-juri:focus {
+    border: 1px solid rgb(255, 153, 153);
+    outline: 0;
+    color: white;
+    background-color: #f2849e;
+}
+
+.btn-pub {
+    border: 1px solid #000000;
+    color: #000000;
+    background-color: #ffff;
+}
+
+.btn-pub:hover,
+.btn-pub:focus {
     border: 1px solid rgb(255, 153, 153);
     outline: 0;
     color: white;
