@@ -100,6 +100,47 @@ a:focus {
     color: #f2849e;
 }
 
+.juri-reverse {
+	color: #f2849e;
+	
+}
+
+.juri-reverse:hover,
+.juri-reverse:focus {
+    text-decoration: none;
+    color: #585858;
+}
+
+
+
+
+/* Style the button and place it in the middle of the container/image */
+.btng {
+	width: 144px;
+	height: 156px;
+  position: absolute;
+  top: 17.5%;
+  left: 73.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(255,255,255,0);
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.btng:hover,
+.btng:focus {
+    color: white;
+    background-color: rgb(85,172,238,.2);
+}
+
+
+
+
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -169,6 +210,8 @@ a:focus {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
 }
+
+
 
 .intro {
     display: table;
