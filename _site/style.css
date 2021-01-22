@@ -204,7 +204,7 @@ a:focus {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000000;
+        background-color: #343434;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -222,7 +222,7 @@ a:focus {
     text-align: left;
     color: #fff;
     /*background: url(/img/intro-bg.jpeg) no-repeat bottom center scroll;*/
-    background-color: #434343ff;
+    background-color: #434343;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -345,7 +345,7 @@ a:focus {
     padding: 0 0;
     color: #fff;
     /*background: url(/img/downloads-bg.jpg) no-repeat center center scroll;*/
-    background-color: #333333ff;
+    background-color: #434343;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -353,7 +353,6 @@ a:focus {
 }
 
 .download-section2 {
-	border-radius:.25rem
     width: 100%;
     padding: 80px 80px;
     color: #000;
