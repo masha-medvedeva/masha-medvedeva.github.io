@@ -257,17 +257,23 @@ a:focus {
     .intro .intro-body .intro-text {
         font-size: 25px;
     }
-    .bottom-top {
-    padding: 0 0;
-  }
+
+    
+}
+
+@media(max-width:767px) {
+	.bottom-top{
+	padding:15% 0;
+	}
     
 }
 
 @media screen and (max-height: 400px) {
     .picture {
-        display: none;
+        display none;
     }
 }
+
 
 .btn-circle {
     width: 70px;
